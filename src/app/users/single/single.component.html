@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>{{ user.name}}</h1>
+<div mat-dialog-content>
+    <span>UserName: {{ user.username }}</span><br>
+    <span>Mail: {{ user. email }}</span><br>
+    <span>Phone: {{ user.phone }}</span><br>
+    <span>WebSite: {{ user.website }}</span><br>
+    <span>Street: {{ user.address.street }}</span><br>
+    <span>Suite: {{ user.address.suite }}</span><br>
+    <span>City: {{ user.address.city }}</span><br>
+    <span>Zipcode: {{ user.address.zipcode }}</span><br>
+    <span>Company: {{ user.company.name }}</span><br>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cerrar</button>
+</div>
